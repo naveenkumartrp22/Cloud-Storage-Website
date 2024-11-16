@@ -7,10 +7,26 @@ body {
 }
 
 header {
-    background-color: #6200ea;
+    background-color: #0077cc;
     color: white;
-    text-align: center;
     padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 main {
@@ -20,7 +36,7 @@ main {
 }
 
 section {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 footer {
@@ -28,13 +44,10 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
 
 a {
-    color: #6200ea;
+    color: #0077cc;
     text-decoration: none;
 }
 
